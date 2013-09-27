@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package org.myorganization.component.example;
+package es.cristobal.component.example;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;

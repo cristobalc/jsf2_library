@@ -24,14 +24,17 @@
     version="2.0">
 
     <application>
+    
         <locale-config>
-            <default-locale>en</default-locale>
+            <default-locale>es</default-locale>
             <supported-locale>en</supported-locale>
         </locale-config>
+        
         <resource-bundle>
-            <base-name>org.myorganization.component.example.messages</base-name>
+            <base-name>es.cristobal.component.example.messages</base-name>
             <var>msgs</var>
         </resource-bundle>
+        
     </application>
 
 </faces-config>

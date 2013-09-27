@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="JSFProcess">
+ <PROCESS-ITEM NAME="rules:" SHAPE="32,17,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules::0" NAME="item" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="go_home::#home.xhtml" NAME="output"
+    PATH="/home.xhtml" TARGET="rules:#home.xhtml" TITLE="go_home" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#validatorDemo.xhtml"
+  PATH="/validatorDemo.xhtml" SHAPE="32,129,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#validatorDemo.xhtml:0" NAME="item"
+   PATH="/validatorDemo.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="display_number::#validatorDemoResult.xhtml"
+    NAME="output" PATH="/validatorDemoResult.xhtml"
+    TARGET="rules:#validatorDemoResult.xhtml" TITLE="display_number" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#converterDemo.xhtml"
+  PATH="/converterDemo.xhtml" SHAPE="32,241,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#converterDemo.xhtml:0" NAME="item"
+   PATH="/converterDemo.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="display_phone::#converterDemoResult.xhtml"
+    NAME="output" PATH="/converterDemoResult.xhtml"
+    TARGET="rules:#converterDemoResult.xhtml" TITLE="display_phone" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#converterDemoResult.xhtml"
+  PATH="/converterDemoResult.xhtml" SHAPE="240,257,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#validatorDemoResult.xhtml"
+  PATH="/validatorDemoResult.xhtml" SHAPE="240,145,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#home.xhtml" PATH="/home.xhtml"
+  SHAPE="240,33,0,0" model-entity="JSFProcessGroup"/>
+</PROCESS>

@@ -31,12 +31,12 @@
     <!-- Managed Beans for sayhello.xhtml -->
     <managed-bean>
         <managed-bean-name>sayHelloBean</managed-bean-name>
-        <managed-bean-class>org.myorganization.component.example.SayHelloBean</managed-bean-class>
+        <managed-bean-class>es.cristobal.component.example.SayHelloBean</managed-bean-class>
         <managed-bean-scope>request</managed-bean-scope>
     </managed-bean>
 
     <!-- NAVIGATION RULES -->
-
+<
     <navigation-rule>
         <navigation-case>
             <from-outcome>go_home</from-outcome>
